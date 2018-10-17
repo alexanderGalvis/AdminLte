@@ -12,6 +12,7 @@ export class MenuComponent implements OnInit, OnDestroy {
   constructor() { }
 
   ngOnInit() {
+    $('body').layout('fix');
     $('.sidebar-menu').tree();
   }
 
